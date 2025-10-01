@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                   // لازم برای paths
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2022",
+    "checkJs": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "types": []                       // از @types خودکار استفاده نکن
+  },
+  "include": ["**/*.js", "**/*.jsx", "next-env.d.ts"],
+  "exclude": ["node_modules", "**/*.ts", "**/*.d.ts"]
+}

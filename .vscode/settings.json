@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+
+  // اگر خواستی CSS هم با Prettier فرمت شود:
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  "prettier.requireConfig": false,
+  "typescript.disableAutomaticTypeAcquisition": true
+}
